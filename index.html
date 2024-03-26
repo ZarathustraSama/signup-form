@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign-up-form</title>
+  <link rel="stylesheet" href="./styles.css" />
+  <script src="./script.js"></script>
+</head>
+<body>
+  <aside>
+    <div class="logo">
+      <img src="./img/odin-lined.png" /> 
+      <p>ODIN</p>
+    </div>
+    <p id="photo-credit">
+      Photo by <a href="https://unsplash.com/@haliewestphoto?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Halie West</a> on <a href="https://unsplash.com/photos/green-leaf-plant-in-close-up-photography-25xggax4bSA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+    </p>
+  </aside>
+    <form class="hotdog" action="#" method="post">
+      <section class="bread">
+        <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.
+        <br> Sign up <i>now</i> to get started.</p>
+        <p>You <i>know</i> you want to.</p>
+      </section>
+      <section class="wurstel">
+          <h2>Let's do this!</h2>
+          <div class="macroprotein">
+            <div class="protein">
+              <label for="first-name">FIRST NAME</label>
+              <input type="text" name="user_first-name" id="first-name" required />
+            </div>
+            <div class="protein">
+              <label for="last-name">LAST NAME</label>
+              <input type="text" name="user_last-name" id="last-name" required />
+            </div>
+            <div class="protein">
+              <label for="email">EMAIL</label>
+              <input type="email" name="user_email" id="email" required />
+            </div>
+            <div class="protein">
+              <label for="phone-number">PHONE NUMBER</label>
+              <input type="tel" name="user_phone-number" id="phone-number" />
+            </div>
+            <div class="protein">
+              <label for="password">PASSWORD</label>
+              <input type="password" name="user_password" id="password" required />
+            </div>
+            <div class="protein">
+              <label for="confirm-password">CONFIRM PASSWORD</label>
+              <input type="password" name="confirm-password" id="confirm-password" required />
+              <span class="error">*Passwords do no match</span>
+            </div>
+          </div> 
+      </section>
+      <section class="bread">
+        <button type="submit">Create account</button>
+        <p>Already have an account? <a href="">Log in</a></p>
+      </section>
+    </form>
+</body>
+</html>
